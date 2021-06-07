@@ -1,38 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+} 
+
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ff7978;
+    background-image: url("./images/bg-intro-desktop.png");
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+    padding: 0 1vw 0 0;
+    width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-banner {
+    background-color: #5d54a3;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 5px 1px;
+    padding: 20px 40px;
+    margin-bottom: 2.5vh;
+    border-radius: 10px;
+    text-align: center;
+    font-size: .8rem;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.top-banner span {
+    font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: unset;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="text"] {
+    font-weight: 600;
+    color: lightslategray; 
+    border: lightgray 1px solid;
+    border-radius: 5px;
+    margin: 0 0 2vh 0;
+    padding: 12px 20px;
+    width: 85%;
 }
+
+input[type="text"]:focus-within {
+    border: #5d54a3 1px solid;
+}
+
+input[type="submit"] {
+    background-color: #37cc8a;
+    margin-top: 8px;
+    padding: 10px 30px;
+    border-radius: 9px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 1px #2eaa72;
+}
+
+form p {
+    font-size: .6rem;
+    font-weight: 600;
+    color: lightgray;
+    padding-top: 15px;
+    text-align: center;
+}
+
+p span {
+    color: #ff7978;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 2vh 0 2vh 0;
+    line-height: 1.2;
+    color: white;
+}
+
+h4 {
+    font-size: .9rem;
+    font-weight: 400;
+    color: white;
+}
+
+p {
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 40em) {
+    body {
+    background-image: url("./images/bg-intro-mobile.png");
+       overflow: scroll;   
+   }
+
+  .container {
+       flex-direction: column;
+       margin-top: 5vh; 
+   }
+
+     .left {
+       width: 70vw;
+       text-align: center; 
+   }
+
+   h1 {
+       font-size: 1.75rem;
+   }
+
+   h4 {
+       font-size: .8rem;
+       margin-bottom: 4vh;
+   }
+
+   .right {
+       min-width: 10vw;
+   }
+
+   form {
+       display: flex;
+       justify-content: center;
+   }
+
+   fieldset{
+       max-width: 3vw;
+       margin-top: 2.5vh;
+   }
+
+   .top-banner {
+      margin: 0 15vw;
+   }
+
+   input[type="submit"] {
+        font-size: .7rem;
+        font-weight: 500;
+   }  
+}
+
+/* @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+   .container {
+       flex-direction: column;
+       margin-top: 5vh; 
+   }
+
+   .left {
+       text-align: center;
+       margin-bottom: 3vh;
+   }
+
+ } */
