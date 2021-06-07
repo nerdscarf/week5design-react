@@ -117,7 +117,7 @@ p {
 @media only screen and (max-width: 40em) {
     body {
     background-image: url("./images/bg-intro-mobile.png");
-       overflow: scroll;   
+       overflow: hidden;   
    }
 
   .container {
@@ -163,7 +163,7 @@ p {
    }  
 }
 
-/* @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+ @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
    .container {
        flex-direction: column;
@@ -175,4 +175,4 @@ p {
        margin-bottom: 3vh;
    }
 
- } */
+ }
