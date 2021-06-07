@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/week5design-react/static/css/main.d516a157.chunk.css",
+    "main.css": "/week5design-react/static/css/main.0f349b82.chunk.css",
     "main.js": "/week5design-react/static/js/main.6d9e19a4.chunk.js",
     "main.js.map": "/week5design-react/static/js/main.6d9e19a4.chunk.js.map",
     "runtime-main.js": "/week5design-react/static/js/runtime-main.30752e86.js",
@@ -10,14 +10,14 @@
     "static/js/3.486bc44b.chunk.js": "/week5design-react/static/js/3.486bc44b.chunk.js",
     "static/js/3.486bc44b.chunk.js.map": "/week5design-react/static/js/3.486bc44b.chunk.js.map",
     "index.html": "/week5design-react/index.html",
-    "static/css/main.d516a157.chunk.css.map": "/week5design-react/static/css/main.d516a157.chunk.css.map",
+    "static/css/main.0f349b82.chunk.css.map": "/week5design-react/static/css/main.0f349b82.chunk.css.map",
     "static/js/2.ccf195db.chunk.js.LICENSE.txt": "/week5design-react/static/js/2.ccf195db.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/week5design-react/static/media/bg-intro-desktop.059183ee.png"
+    "static/media/App.css": "/week5design-react/static/media/bg-intro-mobile.02ce3982.png"
   },
   "entrypoints": [
     "static/js/runtime-main.30752e86.js",
     "static/js/2.ccf195db.chunk.js",
-    "static/css/main.d516a157.chunk.css",
+    "static/css/main.0f349b82.chunk.css",
     "static/js/main.6d9e19a4.chunk.js"
   ]
 }
